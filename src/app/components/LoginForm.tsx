@@ -2,8 +2,9 @@ import React from 'react'
 
 export default function LoginForm() {
   return (
-    <form>
-      <label className="input input-bordered flex items-center gap-2">
+    <form className="bg-indigo-950 p-12 rounded-xl w-96 max-w-full flex justify-center items-center flex-col gap-4 mt-36 ">
+      <h1 className='font-bold text-xl text-amber-400 '>Faça seu Login</h1>
+      <label className="input input-bordered bg-slate-100 flex items-center gap-2 bg-base-100 ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 16 16"
@@ -13,9 +14,9 @@ export default function LoginForm() {
           <path d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z" />
           <path d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
         </svg>
-        <input type="text" className="grow" placeholder="Email" />
+        <input type="text" className="grow bg-base-100" placeholder="Email" />
       </label>
-      <label className="input input-bordered flex items-center gap-2">
+      <label className="input input-bordered bg-slate-100 flex items-center gap-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 16 16"
@@ -28,8 +29,9 @@ export default function LoginForm() {
             clipRule="evenodd"
           />
         </svg>
-        <input type="password" className="grow" value="password" />
+        <input type="password" className="grow" placeholder='Senha'/>
       </label>
+      <button className='btn btn-primary bg-amber-500 border-none text-zinc-50 w-full rounded-3xl'>Login</button>
     </form>
   )
 }
