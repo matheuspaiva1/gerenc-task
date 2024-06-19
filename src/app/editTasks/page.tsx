@@ -10,7 +10,7 @@ export default function Page() {
 
       <div className="flex items-center mt-8">
       <h1 className='font-bold mx-28 text-2xl  text-sky-900'>Edite a sua tarefa</h1>
-      <ButtonAddTask type="submit" title="Adicionar tarefa" />
+      <ButtonAddTask type="submit" title="Editar tarefa" />
       </div>
         <FormTasks/>
     </main>
