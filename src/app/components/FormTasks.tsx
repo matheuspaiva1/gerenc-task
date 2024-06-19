@@ -17,8 +17,10 @@ export default function FormTasks() {
         value={valueInput}
         type="text"
         placeholder="Digite aqui"
-        className="input input-bordered input-info max-w-5xl bg-zinc-50 mx-28 py-4 w-full "
+        className="input input-bordered input-info max-w-4xl bg-zinc-50 mx-28 py-4 w-full "
       />
+      <ButtonAddTask type="submit" title="Adicionar tarefa"/>
+
     </form>
   )
 }
