@@ -1,9 +1,11 @@
+'use client'
 import React from 'react'
 import { CiCircleCheck } from "react-icons/ci";
 import { FiEdit } from "react-icons/fi";
 
 
 export default function Tasks() {
+  
   return (
     <div className="card mx-36 mt-4 shadow-xl py-4 bg-zinc-50 text-zinc-800">
       <div className="flex items-center relative">
