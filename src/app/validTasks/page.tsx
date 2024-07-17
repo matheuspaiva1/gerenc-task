@@ -1,10 +1,5 @@
 import React from 'react'
 import Header from '../components/Header'
-import FormTasks from '../components/FormTasks'
-import ButtonAddTask from '../components/ButtonAddTask'
-import Link from 'next/link'
-import { CiCircleCheck } from 'react-icons/ci'
-import { FiEdit } from 'react-icons/fi'
 
 export default function Page() {
   return (

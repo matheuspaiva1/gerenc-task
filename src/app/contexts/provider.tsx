@@ -5,7 +5,7 @@ import AppContext from './appContext'
 interface ProviderProps{
   children: ReactNode,
 }
-export default function Providers({children}: ProviderProps){
+export default function Provider({children}: ProviderProps){
   const [valueInput, setValueInput] = useState('')
 
   const value = {
@@ -19,7 +19,5 @@ export default function Providers({children}: ProviderProps){
         {children}
       </AppContext.Provider>
     </div>
-
-    
 )
 }
